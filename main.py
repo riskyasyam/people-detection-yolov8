@@ -117,7 +117,7 @@ while True:
     cv2.putText(frame, f"Pengunjung di Dalam = {inside}", (60, 200), cv2.FONT_HERSHEY_COMPLEX, 0.7, (0, 255, 0), 2)
 
     cv2.imshow("RGB", frame)
-    if cv2.waitKey(10) & 0xFF == 27:
+    if cv2.waitKey(1) & 0xFF == 27:
         break
 
 cap.release()
